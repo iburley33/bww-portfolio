@@ -31,7 +31,6 @@ const Portfolio = () => {
                         <p>Your one stop shop for all things cycling. Find your nearest cycling route and current weather conditions in one quick search.</p>
                     </div>
                 </a>
-
             </div>
         </section>
     )
