@@ -1,10 +1,11 @@
+import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Intro from './components/intro/Intro';
 import Skills from './components/skills/Skills';
 import Portfolio from './components/portfolio/Portfolio';
 import Resume from './components/resume/Resume';
 import Contact from './components/contact/Contact';
-import './App.css';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Resume />
       <Portfolio />
       <Contact />
+      <Footer />
     </div>
   );
 }
