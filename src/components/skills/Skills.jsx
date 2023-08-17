@@ -13,7 +13,7 @@ const Skills = () => {
                 <div className='skillBar'>
                     <img className='skillBarImg' src={UIDesign} alt='UIDesign'></img>
                     <div className='skillBarText'>
-                        <h2>Server and API development</h2>
+                        <h2>Server and API Development</h2>
                         <p>I excel at creating reliable and efficient server environments and designing user-friendly APIs. My experience ensures fast response times, top-notch security, and seamless integrations, making digital solutions both robust and easy to use.</p>
                     </div>
                 </div>
