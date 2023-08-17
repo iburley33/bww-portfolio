@@ -2,7 +2,7 @@ import React from 'react';
 import './resume.css';
 import { Link } from 'react-scroll';
 import js from '../../assets/logo-js.png';
-import apollo from '../../assets/logo-apollo.png';
+import btnImg from '../../assets/hireme.png';
 import react from '../../assets/logo-react.png';
 import mysql from '../../assets/logo-mysql.png';
 import mongo from '../../assets/logo-mongodb.png';
@@ -16,7 +16,6 @@ import jest from '../../assets/logo-jest.png';
 import git from '../../assets/logo-git.png';
 import heroku from '../../assets/logo-heroku.png';
 import aws from '../../assets/logo-aws.png';
-import bulma from '../../assets/logo-bulma.png';
 import bootstrap from '../../assets/logo-bootstrap.png';
 
 const Resume = () => {
@@ -58,12 +57,6 @@ const Resume = () => {
                             </div>
                         </div>
                         <div className='tech'>
-                            <img className='techBarImgB' src={bulma} alt='UIDesign'></img>
-                            <div className='techBarText'>
-                                <p>Bulma</p>
-                            </div>
-                        </div>
-                        <div className='tech'>
                             <img className='techBarImg' src={jquery} alt='UIDesign'></img>
                             <div className='techBarText'>
                                 <p>jQuery</p>
@@ -98,12 +91,7 @@ const Resume = () => {
                                 <p>GraphQL</p>
                             </div>
                         </div>
-                        <div className='tech'>
-                            <img className='techBarImg' src={apollo} alt='UIDesign'></img>
-                            <div className='techBarText'>
-                                <p>Apollo</p>
-                            </div>
-                        </div>
+
                         <div className='tech'>
                             <img className='techBarImg' src={mysql} alt='UIDesign'></img>
                             <div className='techBarText'>
@@ -143,6 +131,9 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
+            <Link>
+                <button className='resumeBtn'><img src={btnImg} alt='resume button' className='btnImg2'></img> Download Resume</button>
+            </Link>
         </section >
     )
 }

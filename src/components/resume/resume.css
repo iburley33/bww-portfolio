@@ -14,7 +14,7 @@
     font-size: 3rem;
     font-weight: 600;
     padding-top: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 .techDesc {
     font-weight: 300;
@@ -25,7 +25,7 @@
 .techBars {
     margin: 1.5rem;
     width: 100vw;
-    max-width: 80%;
+    max-width: 60%;
     text-align: left;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
 .techBar {
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin: 0.5rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     background:rgb(50, 50, 50);
@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     justify-content: center;
     align-items: center;
 }
@@ -53,13 +53,6 @@
     object-fit:cover;
     height: 3rem;
     width: 3rem;
-}
-.techBarImgB{
-    object-fit:cover;
-    height: 2.2rem;
-    width: 2.2rem;
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
 }
 
 .techBarText>p {
@@ -70,10 +63,30 @@
 .tech {
     display: flex;
     flex-direction: column;
-    margin: 1rem;
+    margin: 0.5rem;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.resumeBtn {
+    background: white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    margin: 0.5rem;
+    margin-bottom: 1rem;
+}
+.btnImg2{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
 }
 
 @media screen and (max-width:720px) {
