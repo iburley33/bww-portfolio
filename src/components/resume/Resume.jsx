@@ -120,7 +120,7 @@ const Resume = () => {
                     </div>
                 </div>
                 <div className='techBar'>
-                    <h3>Tools and Methodolgies</h3>
+                    <h3>Tools & Methodologies</h3>
                     <div className='techBarContent'>
                         <div className='tech'>
                             <img className='techBarImg' src={git} alt='UIDesign'></img>

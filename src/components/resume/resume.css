@@ -44,7 +44,10 @@
 .techBarContent {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 .techBarImg {
     object-fit:cover;
@@ -53,10 +56,10 @@
 }
 .techBarImgB{
     object-fit:cover;
-    height: 2.4rem;
-    width: 2.4rem;
-    margin-top: auto;
-    margin-bottom: auto;
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
 }
 
 .techBarText>p {
@@ -67,7 +70,9 @@
 .tech {
     display: flex;
     flex-direction: column;
-    margin-right: 2rem;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
