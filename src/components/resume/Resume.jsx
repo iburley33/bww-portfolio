@@ -1,6 +1,5 @@
 import React from 'react';
 import './resume.css';
-import { Link } from 'react-scroll';
 import js from '../../assets/logo-js.png';
 import btnImg from '../../assets/hireme.png';
 import react from '../../assets/logo-react.png';
@@ -131,9 +130,9 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-            <Link>
+            <a href='/resume.pdf' download >
                 <button className='resumeBtn'><img src={btnImg} alt='resume button' className='btnImg2'></img> Download Resume</button>
-            </Link>
+            </a>
         </section >
     )
 }

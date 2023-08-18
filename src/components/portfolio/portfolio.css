@@ -32,6 +32,10 @@
     flex-wrap: wrap;
 }
 
+.worksImgs a:hover {
+    cursor: auto;
+}
+
 .worksImg {
     object-fit: cover;
     width: 15rem;
@@ -40,7 +44,8 @@
     border-radius: 0.5rem;
 
 }
-.work{
+
+.work {
     background: rgb(50, 50, 50);
     color: white;
     display: flex;
@@ -54,17 +59,23 @@
     justify-content: center;
     padding-inline: 2rem;
 }
+
+.work:hover {
+    cursor: pointer;
+}
+
 .work h3 {
     color: white;
 }
+
 @media screen and (max-width:970px) {
-    .work{
+    .work {
         max-width: 70vw;
     }
 }
 
 @media screen and (max-width:520px) {
-    .work{
+    .work {
         margin: 1rem auto;
         max-width: 80%;
     }

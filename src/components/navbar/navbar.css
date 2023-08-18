@@ -39,6 +39,9 @@
     padding: 0 1rem;
     border-radius: 2rem;
 }
+.desktopMenuBtn:hover {
+    cursor: pointer;
+}
 
 .desktopMenuImg {
     object-fit: cover;
