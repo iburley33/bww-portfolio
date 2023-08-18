@@ -21,7 +21,7 @@ const Skills = () => {
                     <img className='skillBarImg' src={WebDesign} alt='WebDesign'></img>
                     <div className='skillBarText'>
                         <h2>UI/UX Design</h2>
-                        <p>Drawing on a deep well of passion for UX/UI design, I specialize in creating visually striking and user-friendly interfaces. My designs prioritize both aesthetics and functionality, ensuring intuitive and engaging user experiences.</p>
+                        <p>Drawing on a deep well of passion for UI/UX design, I specialize in creating visually striking and user-friendly interfaces. My designs prioritize both aesthetics and functionality, ensuring intuitive and engaging user experiences.</p>
                     </div>
                 </div>         
                 <div className='skillBar'>

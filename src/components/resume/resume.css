@@ -80,7 +80,7 @@
     margin: 0.5rem;
     margin-bottom: 1rem;
 }
-.resumeBtn {
+.resumeBtn:hover {
     cursor: pointer;
 }
 .btnImg2{
